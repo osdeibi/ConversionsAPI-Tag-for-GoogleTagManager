@@ -796,7 +796,7 @@ scenarios:
     assertApi('setCookie').wasCalled();
     assertApi('gtmOnSuccess').wasCalled();
 
-- name: Do not set Meta cookies (fbp / fbc) if "extendCookies" checkbox is ticked
+- name: Do not set Meta cookies (fbp / fbc) if extendCookies checkbox is ticked
   code: |
     runCode({
       pixelId: '123',
